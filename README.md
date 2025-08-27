@@ -2,7 +2,7 @@
 
 A user-friendly desktop application for converting, joining, and processing audio and video files. Built with Python, this tool provides a clean graphical interface (GUI) to the powerful FFmpeg library, making complex media tasks simple and accessible for everyone.
 
-![Simple Media Converter Screenshot](https://github.com/user-attachments/assets/55198fb8-b87b-45c5-bfd2-26296df44080)
+<img src="https://github.com/user-attachments/assets/55198fb8-b87b-45c5-bfd2-26296df44080" alt="Simple Media Converter Screenshot" width="600"/>
 
 ---
 
