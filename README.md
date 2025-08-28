@@ -23,6 +23,7 @@ I believe this app can help others who need to convert audio or video files in a
 -   **Versatile Conversion:**
     -   **Audio Mode:** Convert video or audio files to a wide range of audio formats (`mp3`, `wav`, `aac`, `flac`, etc.).
     -   **Video Mode:** Convert videos between popular formats (`mp4`, `mkv`, `mov`, `webm`, etc.), with options to change codecs, resolution, and FPS.
+    -   **Extract Audio:** Easily pull the audio track from any video file and save it in your desired audio format.
 -   **Join Multiple Files:** Combine several audio or video files into a single output file. The order can be easily rearranged using drag-and-drop.
 -   **Intuitive Interface:**
     -   Clean, modern, and themeable interface (Light, Dark, and Black themes).
@@ -37,13 +38,25 @@ I believe this app can help others who need to convert audio or video files in a
 
 ---
 
+## Prerequisites
+
+Regardless of the installation method, this application requires **FFmpeg** to function.
+
+1.  **FFmpeg: The core of the application requires FFmpeg to function.**
+-   You can download FFmpeg from the official website: [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)
+-   After running the application, click the **"FFmpeg Library"** button to set the paths to the `ffmpeg`, `ffprobe`, and `ffplay` executables.
+
+2.  **Python: If running from source, you will need Python 3.13 or higher.**
+
+---
+
 ## Getting Started
 
 ### Option 1: Download the Application (Recommended)
 
-For most users, the easiest way to get started is to download the latest pre-built application.
+For most users, the easiest way to get started is to download the latest pre-built application. Currently, pre-built applications are available for **Windows**.
 
-1.  Go to the [**Releases Page**](https://github.com/your-username/simple-media-converter/releases).
+1.  Go to the [**Releases Page**](https://github.com/pyrus-code/simple-media-converter/releases).
 2.  Download the `Simple-Media-Converter.exe` file from the latest release.
 3.  **No installation is needed.** Just run the file to start the application.
 
@@ -53,7 +66,7 @@ If you want to run the project from the source code, follow these steps:
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/your-username/simple-media-converter.git](https://github.com/your-username/simple-media-converter.git)
+    git clone [https://github.com/pyrus-code/simple-media-converter.git](https://github.com/pyrus-code/simple-media-converter.git)
     cd simple-media-converter
     ```
 
@@ -68,13 +81,6 @@ If you want to run the project from the source code, follow these steps:
     ```
 
 ---
-
-## Prerequisites
-
-Regardless of the installation method, this application requires **FFmpeg** to function.
-
--   You can download FFmpeg from the official website: [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)
--   After running the application, click the **"FFmpeg Library"** button to set the paths to the `ffmpeg`, `ffprobe`, and `ffplay` executables.
 
 ## License
 
